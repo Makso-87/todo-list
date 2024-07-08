@@ -1,0 +1,21 @@
+@import '../../variables';
+
+.Form {
+  display: flex;
+  margin: 0 0 20px;
+
+  .AddButton {
+    border: 1px solid #6b6767;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: none;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+    @include transition();
+
+    &:hover {
+      background: #6b6767;
+      color: #ffffff;
+    }
+  }
+}

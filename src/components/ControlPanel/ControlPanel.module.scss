@@ -1,0 +1,16 @@
+.ControlPanel {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  .ItemsInfo {
+  }
+
+  .FilterButtons {
+    display: flex;
+    margin: 0 20% 0 auto;
+  }
+
+  .ClearButton {
+  }
+}
