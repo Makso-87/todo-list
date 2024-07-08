@@ -1,0 +1,31 @@
+.Layout {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  .Wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    padding: 20px 20px;
+    background: #e9e9e9;
+    flex-direction: column;
+    border-radius: 5px;
+
+    .Title {
+      text-align: center;
+      margin: 0 0 40px;
+    }
+
+    .Container {
+      display: flex;
+      width: 100%;
+      padding: 20px 20px;
+      background: #f9f9f9;
+      flex-direction: column;
+      border-radius: 5px;
+    }
+  }
+}

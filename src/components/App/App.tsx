@@ -1,10 +1,7 @@
 import React from 'react';
+import Layout from '../Layout/Layout';
 const App = () => {
-  return (
-    <div>
-      <h1>To do List</h1>
-    </div>
-  );
+  return <Layout />;
 };
 
 export default App;
